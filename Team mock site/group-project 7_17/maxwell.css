@@ -1,0 +1,221 @@
+body {
+  	margin: 0;
+  	padding-left: 0;
+  	padding-top: 50px;
+  	font-size: 14px;
+  	color: #494949;
+	background-color: #CCA1AF;
+  	line-height: 24px;
+  	font-weight: inherit;
+  	font-family: Verdana, Arial, sans-serif;
+}
+#wrapper {
+  	border: 2px solid #cccccc;
+  	margin: auto;
+  	padding: 1em;
+  	width: 80%;
+  	background-color: #EDEDED;
+}
+header {
+  	padding: 2em;
+  	color: #ffffff;
+  	background-color: #666666;
+	background-image: url(mwslogo.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+  	margin-bottom: 0.1em;
+}
+header h1 {
+  	margin: 0;
+  	padding: 0;
+  	font-size: 40px;
+}
+/*Navigation*/
+nav {
+  	color: #eeeeee;
+  	width: 100%;
+  	position: relative;
+  	text-align: center;
+  	margin-bottom: 0.5em;
+  	background-color: #95CBCA;
+  	float: right;
+  	display: block;
+}
+nav ul {
+  	margin: 0;
+  	padding-top: 5px;
+  	padding-bottom: 0px;
+  	text-align: center;
+}
+nav li {
+  	margin: 0 0.5em 0 0;
+  	padding: 0;
+  	display: inline;
+}
+nav a:link {
+  	padding: 5px;
+  	color: #597A79;
+  	text-decoration: none;
+  	float: left;
+}
+nav a:visited { 
+	color: #49857C;
+}
+nav a:hover {
+  	color: #34625B;
+}
+/*Content*/
+main {
+  	padding: 2em 1em;
+}
+#banner img { 
+	width: 100%;
+	height: auto;
+}
+h1 {
+  	font-size: 35pt;
+	line-height: 55px;
+}
+h2 {
+  	font-size: 26pt;
+	text-align: center;
+	padding: 20px 0 15px 0;
+	display: block;
+}
+h3 {
+	color: #494949;
+	display: block;
+	padding-top: 15px;
+	margin-bottom: 15px;
+  	text-align: center;
+  	font-size: 21px;
+	line-height: 50px;
+}
+section {
+        background-color: #DFAA83;
+        padding: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1em;
+        margin-top: 5em;
+}
+section h3 {
+	color: #895B3D;
+}
+main ul { 
+	margin-right: 2em;
+	list-style-type: none;
+}
+main li { 
+	padding-bottom: 25px;
+}
+.product {
+	font-weight: bold;
+}
+.price {
+	display: block;
+	font-weight: bold;
+}
+.stock {
+	display: block;
+	font-weight: bold;
+}
+.comments {
+	font-style: italic;
+	font-size: 16px;
+	
+}
+.name {
+	display: block;
+	float: right;
+	font-weight: bold;
+	margin-top: 2em;
+}
+.customers { 
+    width: 70%;
+	margin: auto;
+	margin-bottom: 80px;
+}
+.customers1 { 
+    width: 70%;
+	margin: auto;
+	margin-bottom: 80px;
+	border-top: 1px solid #494949;
+	padding-top: 30px;
+}
+.floatleft {
+      	float: left;
+     	margin-right: 2em;	
+}
+.floatright {
+      	float: right;
+     	margin-left: 4em;
+}
+/*Footer*/
+footer {
+  	padding: 10px;
+  	background-color: silver;
+	font-size: 12px;
+  	text-align: center;
+	line-height: 18px;
+  	margin-right: auto;
+  	width: 82%;
+  	margin-left: auto;
+  	margin-top: 0.5em;
+}
+#mobile { 
+		display: none; 
+}
+
+#desktop { 
+		display: inline;
+}
+@media only screen and (max-width: 1024px) {
+	body { 
+		margin: 0;
+		padding: 0;
+		padding-top: 50px;
+	}
+	#wrapper { 
+			width: 80%;
+			padding-top: 10px;
+	}
+	header {
+		background-image: url(mwslogo.gif);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 75%;
+		padding: 50px;
+	}
+	header h1 {
+  	display: none;
+}
+	footer { 
+			width: 85%;
+	}
+}
+@media only all and (max-width: 768px) {
+	header {
+		background-image: url(mwslogo.gif);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 75%;
+		padding: 50px;
+	}
+	header h1 {
+		display: none
+	}
+
+	h3 {
+  		text-align: center;
+  		font-size: 21px;
+		line-height: 26px;
+	}
+	#mobile { 
+			display: inline;
+		}
+    	#desktop { 
+			display: none;
+		}
+}
+
